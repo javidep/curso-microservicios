@@ -4,7 +4,7 @@ zuul.routes.organizationservice: /organization/**
 zuul.routes.licensingservice: /licensing/**
 zuul.routes.authenticationservice: /auth/**
 
-# sensitiveHeaders default value:
+# sensitiveHeaders default value value:
 # sensitiveHeaders: Cookie,Set-Cookie,Authorization
 zuul.sensitiveHeaders: Cookie,Set-Cookie
 zuul.debug.request: true
